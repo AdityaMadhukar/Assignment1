@@ -1,0 +1,288 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div {
+    float: left;
+}
+#Navbar {
+    background-color:rgb(243, 235, 77);
+    width:90%;
+    height: 80px;
+    z-index: 1;
+    position: fixed;
+    
+}
+.Logo {
+    margin-top: 15px;
+    padding: 2px 2px;
+    float: left;
+
+}
+.title {
+    background-image: linear-gradient(to top, rgb(141, 229, 247),rgb(123, 211, 123));
+    display: block;
+    float: left;
+    width: 19%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+    font-size: 1.2rem;
+    padding: 15px 10px;
+    border-right:10px solid rgb(243, 235, 77);
+    border-left:10px solid rgb(243, 235, 77);
+    border-radius: 75px;
+    
+    
+}
+.title:hover {
+    font-size: 1.5rem;
+}
+.Intro {
+    margin-top: 100px;
+    width: 220%;
+    display: flex;
+    flex-direction: row;
+    gap: 9%;
+}
+.Cover {
+    width: 66%;
+    height: 85vh;
+    margin-left: 1%;
+    position: relative;
+    
+    margin-bottom: 30px;
+    
+    background-image:url("../Images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.main {
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-69%);
+}
+.up {
+    display: block;
+    transform: translateX(-30%);
+    
+}
+.down {
+    display: block;
+    transform: translateX(30%);
+}
+.Name {
+    background-image: linear-gradient(to left ,white,rgb(28, 205, 217) );
+    margin-top:13px;
+    margin-right: 4%;
+   
+    
+    width: 65%;
+    height: 85vh;
+    background-color: beige;
+    font-size: 2rem;
+    text-align: center;
+}
+.btn {
+    width: 20%;
+    height: 10vh;
+    background-color: rgb(30, 152, 30);
+    transform: translateY(20vh);
+    font-size: 1.3rem;
+    border-style: double;
+    border-color: rgb(28, 205, 217);
+    border-radius: 100%;
+    box-shadow: 0px 4px 8px 0px black;
+}
+.btn:hover {
+    background-color:rgb(87, 219, 87);
+}
+.add {
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    color: black;
+}
+.add:focus {
+    opacity: 0;
+    
+    
+}
+.added {
+    border: 2px;
+    border-color: black;
+    font-size: 0.8rem;
+    padding: 2px;
+    background-color: rgb(107, 232, 107);
+}
+.Cards {
+    
+    float: left;
+    margin: 15px 0px 15px 30px;
+    
+    box-shadow: 0px 4px 8px 0px black;
+    background-color: cornflowerblue;
+    padding-left: 2px;
+    width: 22%  ;
+    height: 72vh;
+    transition: all;
+    border-radius: 10px;
+}
+.CardsA {
+    
+    float: left;
+    margin: 15px 0px 15px 30px;
+    
+    box-shadow: 0px 4px 8px 0px black;
+    background-color: blanchedalmond;
+    padding-left: 2px;
+    width: 22%  ;
+    height: 72vh;
+    transition: all;
+    border-radius: 10px;
+}
+.Cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px 0px black;
+ }
+ .CardsA:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px 0px black;
+ }
+
+
+#A:hover {
+    
+    background-color: rgb(254, 189, 1);
+    color:rgb(56, 56, 220);
+}
+#B:hover {
+    
+    background-color:rgba(87,105,95,255);
+    color: rgba(81,233,236,255);
+}
+#C:hover {
+    
+    background-color: rgba(125,186,165,255);
+    color: rgba(213,232,175,255);
+}
+#D:hover {
+    
+    background-color: rgba(254,196,4,255);
+    color: rgb(0, 77, 124);
+}
+.Signs {
+    float: right;
+    padding-right: 10px;
+    
+}
+
+
+.price {
+    float: right;
+    padding-right: 3px;
+    color: black;
+}
+#search input {
+    float: left;
+    width: 25%;
+    height: 25px;
+    background-image: url("../Images/s.JPG");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    padding: 2px 1px 2px 4px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+#search input:hover {
+    background-color: darkseagreen;
+}
+#search input:focus {
+    width: 50%;
+}
+.Reviews {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 200%;
+    gap: 15%;
+}
+.users{
+    
+    margin-top: 15px;
+    margin-left:5%;
+    
+    
+    
+    
+    width:66%;
+    
+}
+
+.User {
+    
+    width: 100%;
+    margin-top: 15px;
+    
+    
+    box-shadow: 0px 4px 8px 0px black;
+    background-color: beige;
+    padding-left: 5px;
+    
+    border-radius: 10px;
+}
+.form {
+    
+    width: 65%;
+    background-color: beige;
+    margin-top: 20px;
+    height: 60vh;
+    padding: 0px 10px 0px 10px;
+}
+#email input {
+    margin-top: 10px;
+    width: 500px;
+    height: 20px;
+}
+#name input {
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+}
+#feedback input {
+    margin-top: 10px;
+    width: 600px;
+    height: 200px;
+}
+
+#footer {
+    margin: 20px 0px 0px 0px;
+    border: 2px black ridge;
+    width: 100%;
+    background-color: rgba(112,119,115,255);
+}
+.f {
+    width: 20%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.link {
+    color: black;
+    text-decoration: none;
+}
+.link:hover {
+    color: red;
+}
+.btt {
+    float: right;
+}
